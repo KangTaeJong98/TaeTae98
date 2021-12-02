@@ -2,6 +2,7 @@
 <appwidget-provider
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:previewLayout="@layout/widget_covid"
+    android:widgetFeatures="reconfigurable"
     android:initialLayout="@layout/widget_covid"
     android:configure="com.taetae98.widget.ui.activity.CovidWidgetConfigureActivity"
     android:resizeMode="horizontal|vertical"

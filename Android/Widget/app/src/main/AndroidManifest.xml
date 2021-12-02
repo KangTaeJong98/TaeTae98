@@ -15,11 +15,19 @@
         android:theme="@style/Theme.Widget" >
         <activity
             android:name=".ui.activity.CovidWidgetConfigureActivity"
-            android:exported="false" />
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".ui.activity.MemoWidgetConfigureActivity"
-            android:exported="false" />
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".ui.activity.MemoActivity"
