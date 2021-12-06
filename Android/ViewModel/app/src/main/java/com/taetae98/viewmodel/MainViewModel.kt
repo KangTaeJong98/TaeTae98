@@ -17,6 +17,15 @@ class MainViewModel(
         // Do Something With Context
     }
 
+//    // No SavedStateHandle ViewModel Factory
+//    class Factory(
+//        // Parameter Something
+//    ) : ViewModelProvider.Factory {
+//        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+//            return MainViewModel()
+//        }
+//    }
+
     class Factory(
         // Parameter Something
         private val application: Application,
