@@ -3,6 +3,8 @@ package com.taetae98.viewmodel
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Base64
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
